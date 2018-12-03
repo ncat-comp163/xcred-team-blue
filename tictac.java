@@ -13,15 +13,16 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import java.awt.image.BufferedImage;
 
-/**
- * This program will allow two people to play Tic-Tac-Toe. This class will
- * extend JFrame and implement Action Listener to creat the gui and play the
- * game. 
- *
- * @author Sean Tisdale setisdale@aggies.ncat.edu 
- * @author Shayla Sexton sesexton@aggies.ncat.edu
- * @author Xavier Luna xilunacabrera@aggies.ncat.edu
- */ 
+
+  /**
+   * Christopher Allis, personal communication, 11/12/18
+   * David Foulser, personal communication, 11/26/18
+   *
+   * This is the action preformed method that is in control of determining whose
+   * turn it is, changing the icon to X or O, and finding who is the winner is.
+   *
+   * @param event will be for the buttons
+   */
 public class tictac extends JFrame implements ActionListener {
 
   //Here are all the buttons for our Tic-Tac-Toe Board
